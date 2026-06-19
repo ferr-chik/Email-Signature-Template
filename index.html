@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
    <head>
       <title>Email Signature Template</title>
@@ -12,7 +13,8 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" crossorigin="anonymous">
       <style type="text/css">
          a.link {margin:0;padding:0;border:none;text-decoration:none;}
-         a {color:#273746;}
+         a {color:#4A90E2; text-decoration: none; transition: color 0.2s;}
+         a:hover {color:#357ABD;}
          p { font-family: 'Delius', cursive; }
          #sig {font-family: 'Dosis', sans-serif;}
          table, tr, td {margin:0;padding:0;line-height: 1.8em;}
@@ -22,22 +24,33 @@
          top: 50%;
          left: 50%;
          transform: translate(-50%, -50%);
-         background-color: #ECEFF1;
+         background-color: #F4F6F7;
          width: 500px;
          height: auto;
-         border-radius: 10px;
+         border-radius: 12px;
          overflow: hidden;
-         padding: 50px;
+         padding: 40px;
+         box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+         }
+         .social-icons a {
+         color: #566573;
+         display: inline-block;
+         margin-right: 15px;
+         margin-top: 10px;
+         }
+         .social-icons a:hover {
+         color: #4A90E2;
          }
       </style>
    </head>
    <body>
       <div class="container">
-         <p><strong><code>To: abishalana15@gmail.com</code></strong><br><br><strong>Hello alana</strong>,</i><br><br>
-            Hope you are <del>doing</del> <strong>coding</strong> well!<br><br>
-            It has been so long we didn't meet, let's catch up tomorrow at <strong>Vapour Brew & Pub</strong>, Indiranagar 560038 <br><br>
-            Hope to see you there!
+         <p><strong><code>From: user@example.com</code></strong><br><br>
+            Привет! Это пример того, как будет выглядеть твоя новая подпись в конце каждого отправленного электронного письма. Тест стилей и шрифтов выполнен успешно.
          </p>
+         
+         <hr style="border: none; border-top: 1px solid #BDC3C7; margin: 25px 0;">
+
          <table id="sig" width='320' cellspacing='0' cellpadding='0' border-spacing='0'>
             <tr>
                <td>
@@ -46,32 +59,28 @@
             </tr>
             <tr>
                <td>
-                  <strong style="color:#273746;font-family:cookie;border:none;text-decoration:none;font-weight:700;font-size:1.9em;letter-spacing:.13em">Vinit Shahdeo</strong>
+                  <strong style="color:#273746;font-family:cookie;border:none;text-decoration:none;font-weight:700;font-size:2.2em;letter-spacing:.05em">Твое Имя</strong>
                </td>
             </tr>
             <tr>
                <td>
-                  <strong><span style="font-weight:500;letter-spacing:.2em;color:#7d7d7d;">SE Intern | POSTMAN</span></strong>
+                  <strong><span style="font-weight:600;letter-spacing:.15em;color:#4A90E2;">Frontend Developer / Student</span></strong>
                </td>
             </tr>
             <tr>
                <td>
-                  <strong><span style="font-weight:600;letter-spacing:.1em;color:#7d7d7d;">Phone: +91-8870855940</span></strong>
+                  <strong><span style="font-weight:600;letter-spacing:.05em;color:#7d7d7d;">Telegram: @your_username</span></strong>
                </td>
             </tr>
             <tr>
-               <td>
-                  <span style="opacity:0.8">
-                  <a href="https://www.facebook.com/vinit.shahdeo"><i class="fab fa-facebook-square fa-2x"></i></a>
-                  <a href="https://twitter.com/Vinit_Shahdeo"><i class="fab fa-twitter fa-2x"></i></a>
-                  <a href="https://github.com/vinitshahdeo"><i class="fab fa-github fa-2x"></i></a>
-                  <a href="https://www.linkedin.com/in/vinitshahdeo/"><i class="fab fa-linkedin fa-2x"></i></a>
-                  </span>        
+               <td class="social-icons">
+                  <a href="https://github.com/ferr-chik" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                  <a href="mailto:user@example.com"><i class="fas fa-envelope fa-2x"></i></a>
                </td>
             </tr>
          </table>
-         <p>-----<br><span style="font-family: Montserrat; opacity: 0.4;">Email signature template by Vinit Shahdeo</span></p>
+         <p>-----<br><span style="font-family: Montserrat; opacity: 0.4; font-size: 0.8em;">Customized Email Signature Template</span></p>
       </div>
    </body>
-   <!--Made with love by Vinit Shahdeo-->
 </html>
